@@ -1,4 +1,4 @@
-# FinalExamBackend
+# EsameFinaleBackedn
 
 Backend for Codex application
 
@@ -168,7 +168,7 @@ Controllers are responsible for managing different functionalities of the applic
 
 Middlewares are used to perform actions before or after processing a request. Below are some middlewares used in the project:
 
-- **Authentication:**
+- **Authenticazine:**
   - **Description:** Middleware for user authentication.
 
 - **ContattiRuoli:**
