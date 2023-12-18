@@ -1,0 +1,330 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Film;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class FilmSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Film::create([
+
+            "idFilm" => 1,
+            "titolo" => "Thanksgiving",
+            "descrizione" => "After a Black Friday riot ends in tragedy, a mysterious Thanksgiving-inspired killer terrorizes Plymouth, Massachusetts - the birthplace of the infamous holiday.",
+            "durata" => 106,
+            "regista" => "Eli Roth",
+            "attori" => "Patrick Dempsey, Ty Olsson, Gina Gershon",
+            "anno" => 2023,
+            "srcImmagine" => "https://assets-prd.ignimgs.com/2023/11/15/thanksgiving-blogroll-1700063998825.jpg?width=1920",
+            "srcFilmato" => "https://www.youtube.com/embed/KbU50SdL8zA",
+            "watch" => 0,
+            "srcBanner" => "https://i0.wp.com/attractioninsight.com/wp-content/uploads/2023/11/thanksgiving-movie-scene.jpg?fit=1920%2C1080&quality=100&strip=all&ssl=1"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 2,
+            "titolo" => "Night Swim",
+            "descrizione" => "A woman swimming in her pool at night is terrorized by an evil spirit",
+            "durata" => 115,
+            "regista" => "Bryce McGuire",
+            "attori" => "Wyatt Russell, Kerry Condon, Amélie Hoeferle",
+            "anno" => 2024,
+            "srcImmagine" => "https://movies.universalpictures.com/media/01-ns-dm-mobile-banner-1080x745-pl-f01-100423-651f049f23417-1.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/pcSNqteCEtE",
+            "watch" => 0,
+            "srcBanner" => "https://i.vimeocdn.com/video/492483039-9fd70db88e9209e53410072802ce0f0442c580bea0504b33c54c95dacb2a5471-d?f=webp"
+        ]);
+
+        Film::create([
+            "idFilm" => 3,
+            "titolo" => "X",
+            "descrizione" => "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
+            "durata" => 105,
+            "regista" => "Ti West",
+            "attori" => "Mia Goth, Jenna Ortega, Brittany Snow",
+            "anno" => 2022,
+            "srcImmagine" => "https://ntvb.tmsimg.com/assets/p21415773_v_h8_ae.jpg?w=960&h=540",
+            "srcFilmato" => "https://www.youtube.com/embed/WsIQT6_60BI",
+            "watch" => 0,
+            "srcBanner" => "https://m.media-amazon.com/images/M/MV5BMDY4MDZhNjQtNGFkZi00ODllLTk5NmEtZDA5MjVhMmI1NGFmXkEyXkFqcGdeQWxiaWFtb250._V1_.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 4,
+            "titolo" => "Talk to Me",
+            "descrizione" => "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+            "durata" => 95,
+            "regista" => "Danny Philippou, Michael Philippou",
+            "attori" => " Ari McCarthy, Hamish Phillips, Kit Erhart-Bruce",
+            "anno" => 2022,
+            "srcImmagine" => "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/S/pv-target-images/1fe49386267107d24ada43ca6c550e8ffe8e08e1c3977c87aec6fb6867c3010a.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/aLAKJu9aJys",
+            "watch" => 0,
+            "srcBanner" => "https://falavisual.com/wp-content/uploads/2023/09/MV5BYjg0MzQ1MTEtMmU1Zi00YWFmLTgxZDAtOTJhYWIzYmRmYjVmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 5,
+            "titolo" => "The Nun II",
+            "descrizione" => "1956 - France. A priest is murdered. An evil is spreading. The sequel to the worldwide smash hit follows Sister Irene as she once again comes face-to-face with Valak, the demon nun.",
+            "durata" => 110,
+            "regista" => "Michael Chaves",
+            "attori" => " Taissa Farmiga, Jonas Bloquet, Storm Reid",
+            "anno" => 2023,
+            "srcImmagine" => "https://www.heavenofhorror.com/wp-content/uploads/2023/06/the-nun-2-horror-movie-1280x593.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/QF-oyCwaArU",
+            "watch" => 0,
+            "srcBanner" => "https://wallpapercave.com/wp/wp7946773.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 6,
+            "titolo" => "The Jester",
+            "descrizione" => "A malevolent being known as The Jester terrorizes the inhabitants of a small town on Halloween night, including two estranged sisters who must come together to find a way to defeat this evil entity.",
+            "durata" => 90,
+            "regista" => "Colin Krawchuk",
+            "attori" => " Michael Sheffield, Lelia Symington, Delaney White",
+            "anno" => 2023,
+            "srcImmagine" => "https://m.media-amazon.com/images/S/pv-target-images/08fa4c9c41f7ca93d723aa39b95da045f7f40633d27d55eb2b741fa09dcceecc.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/gJGVNt2_T-k",
+            "watch" => 0,
+            "srcBanner" => "https://m.media-amazon.com/images/M/MV5BNTgxNzZjMzEtMTM4MC00ZjkyLWE0ZDMtM2M1ZTkwZGIxMDA3XkEyXkFqcGdeQXVyOTI0MTIyODM@._V1_.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 7,
+            "titolo" => "The Exorcist: Believer",
+            "descrizione" => "When two girls disappear into the woods and return three days later with no memory of what happened to them, the father of one girl seeks out Chris MacNeil, who's been forever altered by what happened to her daughter fifty years ago.",
+            "durata" => 120,
+            "regista" => "David Gordon Green",
+            "attori" => " Lafortune Joseph, Leslie Odom Jr., Gastner Legerme",
+            "anno" => 2023,
+            "srcImmagine" => "https://dailyutahchronicle.com/wp-content/uploads/2023/10/una-halloween-horror-nights-house-exorcist.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/PIxpPMyGcpU",
+            "watch" => 0,
+            "srcBanner" => "https://sm.ign.com/ign_pt/news/t/the-exorci/the-exorcist-believer-scares-its-way-to-the-top-of-the-domes_cqyy.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 8,
+            "titolo" => "John Wick: Chapter 4",
+            "descrizione" => "A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.",
+            "durata" => 189,
+            "regista" => "Chad Stahelski",
+            "attori" => "Keanu Reeves, Laurence, FishburneGeorge, Georgiou",
+            "anno" => 2023,
+            "srcImmagine" => "https://sm.ign.com/ign_br/gallery/j/john-wick-/john-wick-4-the-cast-of-the-action-sequel_vpr9.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/yjRHZEUamCc",
+            "watch" => 0,
+            "srcBanner" => "https://media.newyorker.com/photos/641a04a8209ee97d3ebfdca8/master/pass/Brody-JW-Review3.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 9,
+            "titolo" => "The Dark Knight",
+            "descrizione" => "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "durata" => 152,
+            "regista" => "Christopher Nolan",
+            "attori" => "Christian Bale, Heath Ledger, Aaron Eckhart",
+            "anno" => 2008,
+            "srcImmagine" => "https://m.media-amazon.com/images/S/pv-target-images/92d5aa88921788f14d4cf89f98b0db5f8381a965e0feeb0a21d1a32636b00d77.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/EXeTwQWrcwY",
+            "watch" => 0,
+            "srcBanner" => "https://i.pinimg.com/originals/ae/21/fa/ae21fa4902b1aa4bc6831cddfbd84728.jpg"
+        ]);
+        Film::create([
+
+            "idFilm" => 10,
+            "titolo" => "Uncharted",
+            "descrizione" => "Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor 'Sully' Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.",
+            "durata" => 116,
+            "regista" => "Ruben Fleischer",
+            "attori" => "Tom Holland, Mark Wahlberg, Antonio Banderas",
+            "anno" => 2022,
+            "srcImmagine" => "https://pixelz.cc/wp-content/uploads/2019/03/uncharted-4-a-thiefs-end-nathan-drake-wqhd-1440p-wallpaper.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/eHp3MbsCbMg",
+            "watch" => 0,
+            "srcBanner" => "https://images8.alphacoders.com/681/681790.jpg"
+        ]);
+        Film::create([
+
+            "idFilm" => 11,
+            "titolo" => "The Batman",
+            "descrizione" => "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+            "durata" => 176,
+            "regista" => "Matt Reeves",
+            "attori" => " Robert Pattinson, Zoë Kravitz, Jeffrey Wright",
+            "anno" => 2022,
+            "srcImmagine" => "https://sm.ign.com/ign_br/screenshot/default/the-batman-2021-official-logo-featured-01_3z62.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/mqqft2x_Aa4",
+            "watch" => 0,
+            "srcBanner" => "https://images7.alphacoders.com/128/1289452.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 12,
+            "titolo" => "Mission: Impossible - Dead Reckoning Part One",
+            "descrizione" => "Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
+            "durata" => 163,
+            "regista" => "Christopher McQuarrie",
+            "attori" => "Tom Cruise, Hayley Atwell, Ving Rhames",
+            "anno" => 2023,
+            "srcImmagine" => "https://images.squarespace-cdn.com/content/v1/63bb3e8a824d7e2f7eedf0d3/8a225826-3c04-42d0-a654-eb1552f23d7f/Mission+Impossible+7+Horizontal.jpeg",
+            "srcFilmato" => "https://www.youtube.com/embed/avz06PDqDbM",
+            "watch" => 0,
+            "srcBanner" => "https://ticketing.phoenixmovies.net/CDN/media/entity/get/FilmBackdrop/f-HO00001490?width=1920&referenceScheme=Global&allowPlaceHolder=true&fallbackMediaType=FilmTitleGraphic"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 13,
+            "titolo" => "Aquaman and the Lost Kingdom",
+            "descrizione" => "Aquaman balances his duties as king and as a member of the Justice League, all while planning a wedding. Black Manta is on the hunt for Atlantean tech to help rebuild his armor. Orm plots to escape his Atlantean prison.",
+            "durata" => 115,
+            "regista" => "James Wan",
+            "attori" => "Jason MomoaBen AffleckPatrick Wilson",
+            "anno" => 2023,
+            "srcImmagine" => "https://www.aquamanmovie.com/images/share.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/FV3bqvOHRQo",
+            "watch" => 0,
+            "srcBanner" => "https://wallpapersmug.com/download/1920x1080/0f8627/aquaman-and-the-lost-kingdom-artwork-fan-made.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 14,
+            "titolo" => "The Marvels",
+            "descrizione" => "Carol Danvers gets her powers entangled with those of Kamala Khan and Monica Rambeau, forcing them to work together to save the universe.",
+            "durata" => 105,
+            "regista" => "Nia DaCosta",
+            "attori" => "Brie Larson, Teyonah Parris, Iman Vellani",
+            "anno" => 2023,
+            "srcImmagine" => "https://images5.alphacoders.com/133/1331120.jpeg",
+            "srcFilmato" => "https://www.youtube.com/embed/GjSmKaCSCPw",
+            "watch" => 0,
+            "srcBanner" => "https://groups.google.com/group/2023-the-marvels-1080p-thai/attach/653ee2eff0bd6/jB48R2vubdLDXmDAbxM1yD9hNCk%20(1).jpg?part=0.1&view=1"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 15,
+            "titolo" => "Jujutsu Kaisen 0",
+            "descrizione" => "A high schooler gains control of an extremely powerful Cursed Spirit and gets enrolled in the Tokyo Prefectural Jujutsu High School by Jujutsu Sorcerers to help him control his power and keep an eye on him.",
+            "durata" => 105,
+            "regista" => "Seong-Hu Park",
+            "attori" => "Chinatsu Akasaki, Aya Endô, Kana Hanazawa",
+            "anno" => 2021,
+            "srcImmagine" => "https://i0.wp.com/www.otakupt.com/wp-content/uploads/2022/01/Crunchyroll-anuncia-a-distribuicao-do-Filme-JUJUTSU-KAISEN-0-nos-cinemas-da-America-Latina.jpg?fit=1920%2C1080&ssl=1",
+            "srcFilmato" => "https://www.youtube.com/embed/UPRqnFnnrr8",
+            "watch" => 0,
+            "srcBanner" => "https://m.media-amazon.com/images/S/pv-target-images/3e9095dfaef2f3e86c69b4361ea8f3b9344e6dfd4d39ee515c5cce144fecf083.jpg"
+        ]);
+
+
+        Film::create([
+
+            "idFilm" => 16,
+            "titolo" => "Dragon Ball Super: Super Hero",
+            "descrizione" => "The Red Ribbon Army from Goku's past has returned with two new androids to challenge him and his friends.",
+            "durata" => 100,
+            "regista" => "Tetsuro Kodama",
+            "attori" => "Masako Nozawa, Aya Hisakawa, Ryô Horikawa",
+            "anno" => 2022,
+            "srcImmagine" => "https://hitsite.com.br/wp-content/uploads/2022/01/dragonballsupersuperhero.png",
+            "srcFilmato" => "https://www.youtube.com/embed/EGIkuEnfHn4",
+            "watch" => 0,
+            "srcBanner" => "https://i0.wp.com/www.otakupt.com/wp-content/uploads/2022/03/Dragon-Ball-Super-Super-Hero-poster-2-2.jpg?fit=1920%2C1080&ssl=1"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 17,
+            "titolo" => "Dragon Ball Super: Broly",
+            "descrizione" => "Goku and Vegeta encounter Broly, a Saiyan warrior unlike any fighter they've faced before.",
+            "durata" => 100,
+            "regista" => "Tatsuya Nagamine",
+            "attori" => "Masako Nozawa, Aya Hisakawa, Ryô Horikawa",
+            "anno" => 2018,
+            "srcImmagine" => "https://www.lab111.nl/wp-content/uploads/2019/01/Dragon-Ball-Super-Broly-Banner.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/wuIbeQv3v7c",
+            "watch" => 0,
+            "srcBanner" => "https://wallpapercrafter.com/desktop4/1169579-Dragon-Ball-Dragon-Ball-FighterZ-Dragon-ball-Z-Dokkan.jpg"
+        ]);
+
+        Film::create([
+
+
+            "idFilm" => 18,
+            "titolo" => "Puss in Boots: The Last Wish",
+            "descrizione" => "When Puss in Boots discovers that his passion for adventure has taken its toll and he has burned through eight of his nine lives, he launches an epic journey to restore them by finding the mythical Last Wish.",
+            "durata" => 102,
+            "regista" => "Joel Crawford, Januel Mercado",
+            "attori" => "Antonio Banderas, Salma Hayek, Harvey Guillén",
+            "anno" => 2022,
+            "srcImmagine" => "https://images.squarespace-cdn.com/content/v1/5e387eca8235c42f2e4dbe6c/00238a51-87de-4619-921e-5309740de3be/Puss+in+Boots_+The+Last+Wish+Photo+Collage+by+Simrah+Ahmad.png",
+            "srcFilmato" => "https://www.youtube.com/embed/tHb7WlgyaUc",
+            "watch" => 0,
+            "srcBanner" => "https://images4.alphacoders.com/129/1297183.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 19,
+            "titolo" => "The Super Mario Bros. Movie",
+            "descrizione" => "A plumber named Mario travels through an underground labyrinth with his brother Luigi, trying to save a captured princess.",
+            "durata" => 92,
+            "regista" => "Aaron Horvath, Michael Jelenic, Pierre Leduc",
+            "attori" => "Chris Pratt, Anya Taylor-Joy, Charlie Day",
+            "anno" => 2023,
+            "srcImmagine" => "https://i0.wp.com/www.dishinfo.com/wp-content/uploads/2023/05/SuperMario_Thumb.jpg?fit=800%2C450&ssl=1",
+            "srcFilmato" => "https://www.youtube.com/embed/TnGl01FkMMo",
+            "watch" => 0,
+            "srcBanner" => "https://i0.wp.com/ofelm.com.br/wp-content/uploads/2023/04/f1PSBBNYKuCjubTgHwFkPr5SidC.jpg?fit=1920%2C1080&ssl=1"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 20,
+            "titolo" => "Frozen",
+            "descrizione" => "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+            "durata" => 102,
+            "regista" => "Chris Buck, Jennifer Lee",
+            "attori" => "Kristen Bell, Idina Menzel, Jonathan Groff",
+            "anno" => 2013,
+            "srcImmagine" => "https://t.ctcdn.com.br/56aslWeuJN9c4fMfFrQoxrXq_p8=/1200x675/smart/i369037.jpeg",
+            "srcFilmato" => "https://www.youtube.com/embed/FLzfXQSPBOg",
+            "watch" => 0,
+            "srcBanner" => "https://images7.alphacoders.com/674/thumb-1920-674391.jpg"
+        ]);
+
+        Film::create([
+
+            "idFilm" => 21,
+            "titolo" => "Spider-Man: Across the Spider-Verse",
+            "descrizione" => "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+            "durata" => 140,
+            "regista" => "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+            "attori" => "Shameik Moore, Hailee Steinfeld, Brian Tyree Henry",
+            "anno" => 2023,
+            "srcImmagine" => "https://www.themoviedb.org/t/p/original/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+            "srcFilmato" => "https://www.youtube.com/embed/cqGjhVJWtEg",
+            "watch" => 0,
+            "srcBanner" => "https://images6.alphacoders.com/129/1298882.jpg"
+        ]);
+    }
+}
